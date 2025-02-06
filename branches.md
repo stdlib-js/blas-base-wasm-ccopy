@@ -38,19 +38,19 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy-wasm"
-%% click B href "https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/main"
-%% click C href "https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/production"
-%% click D href "https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/esm"
-%% click E href "https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/deno"
-%% click F href "https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ccopy"
+%% click B href "https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/main"
+%% click C href "https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/production"
+%% click D href "https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/esm"
+%% click E href "https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/deno"
+%% click F href "https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/umd"
 ```
 
-[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy-wasm
-[production-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/production
-[deno-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/esm/README.md
+[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ccopy
+[production-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/production
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/esm/README.md

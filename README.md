@@ -40,7 +40,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/blas-base-ccopy-wasm
+npm install @stdlib/blas-base-wasm-ccopy
 ```
 
 Alternatively,
@@ -60,7 +60,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var ccopy = require( '@stdlib/blas-base-ccopy-wasm' );
+var ccopy = require( '@stdlib/blas-base-wasm-ccopy' );
 ```
 
 #### ccopy.main( N, x, strideX, y, strideY )
@@ -240,7 +240,7 @@ var zeros = require( '@stdlib/array-zeros' );
 var bytesPerElement = require( '@stdlib/ndarray-base-bytes-per-element' );
 var Complex64Array = require( '@stdlib/array-complex64' );
 var reinterpretComplex64 = require( '@stdlib/strided-base-reinterpret-complex64' );
-var ccopy = require( '@stdlib/blas-base-ccopy-wasm' );
+var ccopy = require( '@stdlib/blas-base-wasm-ccopy' );
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -308,7 +308,7 @@ var zeros = require( '@stdlib/array-zeros' );
 var bytesPerElement = require( '@stdlib/ndarray-base-bytes-per-element' );
 var Complex64Array = require( '@stdlib/array-complex64' );
 var reinterpretComplex64 = require( '@stdlib/strided-base-reinterpret-complex64' );
-var ccopy = require( '@stdlib/blas-base-ccopy-wasm' );
+var ccopy = require( '@stdlib/blas-base-wasm-ccopy' );
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -392,7 +392,7 @@ var oneTo = require( '@stdlib/array-one-to' );
 var zeros = require( '@stdlib/array-zeros' );
 var Complex64Array = require( '@stdlib/array-complex64' );
 var reinterpretComplex64 = require( '@stdlib/strided-base-reinterpret-complex64' );
-var ccopy = require( '@stdlib/blas-base-ccopy-wasm' );
+var ccopy = require( '@stdlib/blas-base-wasm-ccopy' );
 
 // Specify a vector length:
 var N = 5;
@@ -449,7 +449,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -459,19 +459,19 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-ccopy-wasm.svg
-[npm-url]: https://npmjs.org/package/@stdlib/blas-base-ccopy-wasm
+[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-wasm-ccopy.svg
+[npm-url]: https://npmjs.org/package/@stdlib/blas-base-wasm-ccopy
 
-[test-image]: https://github.com/stdlib-js/blas-base-ccopy-wasm/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base-wasm-ccopy/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-ccopy-wasm/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-ccopy-wasm?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-wasm-ccopy/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-wasm-ccopy?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-ccopy-wasm.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-ccopy-wasm/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-wasm-ccopy.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-wasm-ccopy/main
 
 -->
 
@@ -485,15 +485,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/blas-base-ccopy-wasm/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/blas-base-wasm-ccopy/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-ccopy-wasm/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-wasm-ccopy/main/LICENSE
 
 [blas]: http://www.netlib.org/blas
 

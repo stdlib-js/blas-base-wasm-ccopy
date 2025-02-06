@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/blas-base-ccopy-wasm",
+  "name": "@stdlib/blas-base-wasm-ccopy",
   "version": "0.0.0",
   "description": "Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.",
   "license": "Apache-2.0",
@@ -36,7 +36,7 @@
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stdlib-js/blas-base-ccopy-wasm.git"
+    "url": "git://github.com/stdlib-js/blas-base-wasm-ccopy.git"
   },
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"

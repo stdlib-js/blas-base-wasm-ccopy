@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-22)
+## Unreleased (2025-02-06)
 
 <section class="features">
 
 ### Features
 
--   [`6734e4d`](https://github.com/stdlib-js/stdlib/commit/6734e4dc3d249e2544ef1e22e2a5fd47ff3e6cd3) - add `blas/base/ccopy-wasm` [(#3163)](https://github.com/stdlib-js/stdlib/pull/3163)
+-   [`ab1d701`](https://github.com/stdlib-js/stdlib/commit/ab1d701a59615ae48b61ff4444ff6c6ac006950b) - add `blas/base/wasm/ccopy`
 
 </section>
 
@@ -22,7 +22,7 @@
 
 <details>
 
--   [`6734e4d`](https://github.com/stdlib-js/stdlib/commit/6734e4dc3d249e2544ef1e22e2a5fd47ff3e6cd3) - **feat:** add `blas/base/ccopy-wasm` [(#3163)](https://github.com/stdlib-js/stdlib/pull/3163) _(by Aman Bhansali, Athan Reines)_
+-   [`ab1d701`](https://github.com/stdlib-js/stdlib/commit/ab1d701a59615ae48b61ff4444ff6c6ac006950b) - **feat:** add `blas/base/wasm/ccopy` _(by Athan Reines)_
 
 </details>
 
@@ -34,9 +34,8 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Aman Bhansali
 -   Athan Reines
 
 </section>
