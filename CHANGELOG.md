@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`f027bb0`](https://github.com/stdlib-js/stdlib/commit/f027bb01176eb0409c263cf3a9c4529bafccc5a9) - **docs:** update examples for `blas/base/wasm/ccopy` [(#5410)](https://github.com/stdlib-js/stdlib/pull/5410) _(by Gururaj Gurram)_
 -   [`885fa05`](https://github.com/stdlib-js/stdlib/commit/885fa05dd8bef35faad5c336e30d643dce805171) - **docs:** fix example _(by Athan Reines)_
 -   [`4112d6d`](https://github.com/stdlib-js/stdlib/commit/4112d6de066fb6324fead4a004882527cf38856b) - **docs:** fix example _(by Athan Reines)_
 -   [`ab1d701`](https://github.com/stdlib-js/stdlib/commit/ab1d701a59615ae48b61ff4444ff6c6ac006950b) - **feat:** add `blas/base/wasm/ccopy` _(by Athan Reines)_
@@ -36,9 +37,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 
 </section>
 
