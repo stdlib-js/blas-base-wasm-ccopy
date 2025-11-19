@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-16)
+## Unreleased (2025-11-19)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`578f2de`](https://github.com/stdlib-js/stdlib/commit/578f2debc7b64165e9cfae647934f1eda0177364) - ensure correct `this` context when creating a new Module instance
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`578f2de`](https://github.com/stdlib-js/stdlib/commit/578f2debc7b64165e9cfae647934f1eda0177364) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
 -   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
 -   [`23c60da`](https://github.com/stdlib-js/stdlib/commit/23c60daf037b609ab1315f45448e0ba52a89c247) - **docs:** remove spaces before periods _(by Philipp Burckhardt)_
 -   [`bf46e99`](https://github.com/stdlib-js/stdlib/commit/bf46e995c93ababb1eb49a635f1616697471b70a) - **style:** remove unused import [(#6781)](https://github.com/stdlib-js/stdlib/pull/6781) _(by Shabareesh Shetty)_
