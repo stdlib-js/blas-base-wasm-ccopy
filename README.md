@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@v0.1.0-esm/index.mjs';
 ```
 
 #### ccopy.main( N, x, strideX, y, strideY )
@@ -172,7 +172,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.m
 import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import reinterpretComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex64@esm/index.mjs';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@v0.1.0-esm/index.mjs';
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -240,7 +240,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.m
 import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import reinterpretComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex64@esm/index.mjs';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@v0.1.0-esm/index.mjs';
 
 // Create a new memory instance with an initial size of 10 pages (320KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -328,7 +328,7 @@ import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@esm/index.
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import reinterpretComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-reinterpret-complex64@esm/index.mjs';
-import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@esm/index.mjs';
+import ccopy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-ccopy@v0.1.0-esm/index.mjs';
 
 // Specify a vector length:
 var N = 5;
