@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.
+> Copy values from one single-precision complex floating-point vector to another single-precision complex floating-point vector.
 
 <section class="installation">
 
